@@ -1,7 +1,7 @@
 import numpy as np
 import pyvista as pv
 
-# Define the points and vertices
+# Define points and vertices
 points = np.array([
     [0, 0, 0],
     [0, 0, 1/3],
@@ -21,7 +21,7 @@ vertices = np.array([
     [0, 0, -1]
 ])
 
-# Define the faces as arrays of indices (using vertex indices)
+# Define faces using vertex indices
 faces = np.hstack([
     [3, 0, 2, 4],
     [3, 0, 3, 4],
@@ -60,3 +60,4 @@ plotter.add_points(points, color='blue', point_size=10, render_points_as_spheres
 
 # Show the plot
 plotter.show()
+
