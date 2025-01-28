@@ -1,4 +1,4 @@
-# FTP-Codes-CD5B
+# Geometric Freeze-Tag Problem
 
 This repository contains various tools and scripts related to solving and visualizing the **Freeze-Tag Problem (FTP)**. The project includes 3D visualizers, calculation utilities, and reference GIFs that show some working examples.
 
